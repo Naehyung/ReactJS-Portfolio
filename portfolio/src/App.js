@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Menu from './components/Menu'
+import Main from './pages/Main'
+import About from './pages/About'
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Menu/>
+    <BrowserRouter>
       <div>
-        this is body
+        <Route path="/" exact={true} component={Main} />
+        <Route path="/about" component={About} />        
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

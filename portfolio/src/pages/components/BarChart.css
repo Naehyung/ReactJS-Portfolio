@@ -1,0 +1,116 @@
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 35px;
+  width:520px;
+  margin-bottom: 10px;
+}
+
+.language {
+  border: 2px solid black;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  height: 35px;
+  border-right: none;
+  font-weight: bold;
+}
+
+.percentage {
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  height: 35px;
+  z-index: 2;
+  border-right: none;
+}
+
+.glance2 {
+
+  width: 80%;
+  height: 35px;
+  transform: translateX(-100%);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.percentageText {
+  width: 12%;
+  border: 2px solid black;
+  border-left: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 570px) {
+
+  .bar {
+    width: 400px;
+  }
+
+  .language {
+    font-size: 12px;
+  }
+
+  .percentageText {
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 440px) {
+  .bar {
+    width: 300px;
+    height: 20px;
+  }
+
+  .glance2 {
+    height: 20px;
+  }
+
+  .percentage {
+    height: 20px;
+  }
+
+  .language {
+    width: 30%;
+    font-size: 10px;
+    height: 20px;
+  }
+
+  .percentageText {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .bar {
+    width: 250px;
+    height: 20px;
+  }
+
+  .glance2 {
+    height: 20px;
+  }
+
+  .percentage {
+    height: 20px;
+  }
+
+  .language {
+    width: 35%;
+    font-size: 10px;
+    height: 20px;
+  }
+
+  .percentageText {
+    font-size: 10px;
+  }
+}

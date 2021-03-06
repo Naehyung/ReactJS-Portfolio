@@ -1,0 +1,44 @@
+.svg {
+    display: block;
+    max-width: 100%;
+    transform: rotate(-90deg);
+}
+
+.svg-circle-bg {
+    fill: none;
+}
+
+.svg-circle {
+    fill: none;
+}
+
+@media only screen and (max-width: 625px) {
+
+  .svg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .svg circle{
+    cx: 60px;
+    cy: 60px;
+    r: 55px;
+  }
+
+}
+
+@media only screen and (max-width: 365px) {
+
+  .svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .svg circle{
+    cx: 40px;
+    cy: 40px;
+    r: 35px;
+    stroke-width: 3px;
+  }
+
+}
