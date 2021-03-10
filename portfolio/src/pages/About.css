@@ -53,13 +53,15 @@
 .bodyLeftImage {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+
 }
 
 .bodyLeftImage img {
   height: 300px;
   width: 300px;
   object-fit: cover;
+  border-radius: 200px;
 }
 
 .bodyLeftContent {
@@ -68,6 +70,10 @@
   align-items: center;
 }
 
+.bodyLeftContent p {
+  padding-top: 40px;
+ font-weight: bold;
+}
 .barChart {
   display: flex;
   align-items: center;

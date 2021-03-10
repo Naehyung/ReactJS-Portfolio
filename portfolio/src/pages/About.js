@@ -9,10 +9,20 @@ import Creative from './components/images/creative.png';
 import Dynamic from './components/images/dynamic.png';
 import Responsive from './components/images/responsive.png'
 import Fast from './components/images/fast.png'
+import Footer from './components/Footer';
+import { useSpring, animated } from "react-spring";
 
 const text = 'ABOUT ME';
 
 function About() {
+
+  const props3 = useSpring({
+    from: {transform: "perspective(500px) rotateY(180deg)",opacity:0},
+    to: async (next, cancel) => {
+      await next({
+        transform: "perspective(1000px) rotateY(0)",opacity:1})},
+        config: { tension: 40,friction: 10 }
+  })
 
   return (
     <div className ="about">
@@ -43,11 +53,11 @@ function About() {
               WHO AM I?
             </TextyAnim>
           </div>
-          <div className = "bodyLeftImage">
+          <animated.div className = "bodyLeftImage" style={props3}>
             <img src = {myImage}/>
-          </div>
+          </animated.div>
           <div className = "bodyLeftContent">
-            <p>I'm Naehyung Kim.</p>
+            <p>I graudated from the University of Queensland<br/>with bachelor degree in Software Enginnering.</p>
           </div>
         </div>
         <div className = "bodyRight">
@@ -67,6 +77,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

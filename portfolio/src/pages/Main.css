@@ -23,6 +23,7 @@
   position: absolute;
   color:white;
   z-index: 1;
+  text-align: center;
 
 }
 
@@ -62,5 +63,24 @@ span {
   left: 0;
   z-index: 1;
   transform: translateX(100%);
+
+}
+
+@media only screen and (max-width: 320px) {
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+
+  }
+  .button button {
+    width: 80%;
+    height: 80px;
+    font-size: 20px;
+
+  }
+
+
 
 }

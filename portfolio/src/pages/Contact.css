@@ -1,0 +1,18 @@
+.contactText {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contactBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactBodyContent {
+  width: 500px;
+}

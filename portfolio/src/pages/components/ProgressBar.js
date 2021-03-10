@@ -1,7 +1,7 @@
 import Reacts from 'react';
 import './ProgressBar.css'
 import React, { useEffect, useState, useRef } from 'react';
-import {Spring} from 'react-spring/renderprops'
+import { Spring } from 'react-spring/renderprops'
 
 
 const ProgressBar = (props) => {
