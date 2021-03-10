@@ -67,7 +67,8 @@ function Project(props) {
         slideImage2={props.slideImage2}
         slideImage3={props.slideImage3}
         MainText={props.MainText}
-        Explaination={props.Explanation}/>
+        Explaination={props.Explanation}
+        githubPage = {props.githubPage}/>
 
     </div>
   )

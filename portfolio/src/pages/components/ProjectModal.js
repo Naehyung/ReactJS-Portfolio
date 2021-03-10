@@ -41,7 +41,10 @@ function ProjectModal(props) {
         </Modal.Header>
         <Modal.Body>{props.Explaination}</Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={props.handleClose}>
+        <Button variant="outline-info" onClick={()=>window.open(props.githubPage, "_blank")}>
+          Check GitHub Page
+        </Button>
+          <Button variant="outline-secondary" onClick={props.handleClose}>
             Close
           </Button>
         </Modal.Footer>

@@ -36,25 +36,29 @@ function Portfolio() {
           slideImage2={MENUImage}
           slideImage3={CONTACTImage}
           MainText="MADTONGSAN WEBSITE"
-          Explanation="Simple Website using HTML, CSS, JavaScript"/>
+          Explanation="Simple Website using HTML, CSS, JavaScript"
+          githubPage="https://github.com/Naehyung/Madtongsan-Website1"/>
         <Project image={LOGINImage}
           slideImage1={MainPage}
           slideImage2={MainPage2}
           slideImage3={Chatting}
           MainText="CHATTING APPLICATION"
-          Explanation="Simple Chatting Application using Java, AndroidStudio, SpringBoot, WebSocket, Restful API and STOMP"/>
+          Explanation="Simple Chatting Application using Java, AndroidStudio, SpringBoot, WebSocket, Restful API and STOMP"
+          githubPage="https://github.com/Naehyung/Simple-Chatting-Application"/>
         <Project image={HARMS1}
           slideImage1={HARMS1}
           slideImage2={HARMS2}
           slideImage3={HARMS3}
           MainText="GUI FOR HARMS"
-          Explanation="Graphical User Interface for Hierarchical Attack Representation Model using Java, Python and SocketIO"/>
+          Explanation="Graphical User Interface for Hierarchical Attack Representation Model using Java, Python and SocketIO"
+          githubPage="https://github.com/Naehyung/HARMs"/>
         <Project image={Portfolio1}
           slideImage1={Portfolio2}
           slideImage2={Portfolio3}
           slideImage3={Portfolio4}
           MainText="Portfolio Website"
-          Explanation="Portfolio Website using HTML, CSS, JavaScript, ReactJS"/>
+          Explanation="Portfolio Website using HTML, CSS, JavaScript, ReactJS"
+          githubPage="https://github.com/Naehyung/ReactJS-Portfolio"/>
       </div>
       <Footer/>
     </div>
