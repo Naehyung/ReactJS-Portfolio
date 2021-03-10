@@ -1,0 +1,17 @@
+.socialIconComp {
+  height: 60px;
+  width: 60px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.socialIconAnimated {
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:2;
+}

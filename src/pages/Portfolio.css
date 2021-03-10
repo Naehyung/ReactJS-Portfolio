@@ -1,0 +1,24 @@
+.portfolio {
+  width: 100%;
+  font-family: "Raleway";
+  color: rgba(0,0,0,0.7);
+
+}
+
+.portfolioText {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.project {
+
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

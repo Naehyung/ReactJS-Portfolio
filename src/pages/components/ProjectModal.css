@@ -1,0 +1,13 @@
+.each-slide > div  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 500px;
+}
+
+.modal-90w {
+  max-width: 800px !important;
+}
