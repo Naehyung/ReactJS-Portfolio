@@ -1,4 +1,3 @@
-import Reacts from 'react';
 import './BarChart.css'
 import {useSpring, animated} from 'react-spring'
 

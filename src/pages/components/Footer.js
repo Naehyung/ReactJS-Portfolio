@@ -1,4 +1,3 @@
-import Reacts from 'react';
 import './Footer.css'
 import SocialIconComp from './SocialIconComp'
 

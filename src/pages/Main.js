@@ -1,9 +1,6 @@
-import Reacts from 'react';
 import './Main.css';
 import mainVideo from './components/video/main.mp4'
-import { Button } from 'react-bootstrap';
-import About from './About'
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Typical from 'react-typical'
 import { useSpring, animated } from "react-spring";
 

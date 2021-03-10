@@ -1,5 +1,4 @@
 import './FlipImage.css'
-import Reacts from 'react';
 import { useSpring, animated} from 'react-spring';
 import ProgressBar from './ProgressBar';
 
@@ -18,7 +17,7 @@ function FlipImage(props) {
     <div classNmae ="flipImageBody">
       <div className = "flipImageMain">
         <animated.div className = "flipImage" style={props3}>
-          <img src={props.image} />
+          <img src={props.image} alt="flipImage"/>
         </animated.div>
         <ProgressBar delayBar={props.delayBar}/>
       </div>

@@ -1,7 +1,6 @@
 import './Project.css';
 import React, { useState } from 'react';
 import { useSpring, animated } from "react-spring";
-import NewWindow from 'react-new-window'
 import ProjectModal from './ProjectModal'
 
 import ABOUTImage from './images/ABOUT.png'

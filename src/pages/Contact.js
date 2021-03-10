@@ -1,4 +1,3 @@
-import Reacts from 'react';
 import Menu from './Menu';
 import TextyAnim from 'rc-texty';
 import './Contact.css';

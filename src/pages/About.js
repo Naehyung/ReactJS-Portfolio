@@ -1,4 +1,3 @@
-import Reacts from 'react';
 import './About.css';
 import Menu from './Menu';
 import TextyAnim from 'rc-texty';
@@ -54,7 +53,7 @@ function About() {
             </TextyAnim>
           </div>
           <animated.div className = "bodyLeftImage" style={props3}>
-            <img src = {myImage}/>
+            <img src = {myImage} alt ="myImage"/>
           </animated.div>
           <div className = "bodyLeftContent">
             <p>I graudated from the University of Queensland<br/>with bachelor degree in Software Enginnering.</p>
